@@ -1,0 +1,67 @@
+<h1><strong>Our Deep Dive</strong></h1>
+<p class="box"></p>
+<div class = "row">
+<div id="chart">
+  <apx-chart style="width: 50%"
+    [series]="chartOptions.series"
+    [chart]="chartOptions.chart"
+    [xaxis]="chartOptions.xaxis"
+    [dataLabels]="chartOptions.dataLabels"
+    [grid]="chartOptions.grid"
+    [stroke]="chartOptions.stroke"
+    [title]="chartOptions.title"
+  ></apx-chart>
+</div>
+<div id="chart">
+  <apx-chart
+    [series]="zhviChart.series"
+    [chart]="zhviChart.chart"
+    [xaxis]="zhviChart.xaxis"
+    [dataLabels]="zhviChart.dataLabels"
+    [grid]="zhviChart.grid"
+    [stroke]="zhviChart.stroke"
+    [title]="zhviChart.title"
+  ></apx-chart>
+</div>
+</div>
+<div class = "row">
+<div id="chart">
+  <apx-chart
+    [series]="mlp.series"
+    [chart]="mlp.chart"
+    [xaxis]="mlp.xaxis"
+    [dataLabels]="mlp.dataLabels"
+    [grid]="mlp.grid"
+    [stroke]="mlp.stroke"
+    [title]="mlp.title"
+  ></apx-chart>
+</div>
+<div id="chart">
+  <apx-chart
+    [series]="msp.series"
+    [chart]="msp.chart"
+    [xaxis]="msp.xaxis"
+    [dataLabels]="msp.dataLabels"
+    [grid]="msp.grid"
+    [stroke]="msp.stroke"
+    [title]="msp.title"
+  ></apx-chart>
+</div>
+</div>
+<div class = "row">
+<div id="chart">
+  <apx-chart
+    [series]="fourbed.series"
+    [chart]="fourbed.chart"
+    [xaxis]="fourbed.xaxis"
+    [dataLabels]="fourbed.dataLabels"
+    [grid]="fourbed.grid"
+    [stroke]="fourbed.stroke"
+    [title]="fourbed.title"
+  ></apx-chart>
+</div> 
+</div>
+<h1>Schools</h1>
+<p class = "box"></p>
+<img src="assets/c.jpg">
+<h2>{{message}}<h2>
